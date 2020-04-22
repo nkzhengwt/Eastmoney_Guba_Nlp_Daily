@@ -7,7 +7,7 @@ A web crawler and nlp to analyze the public sentiments of A shares
 - 设置进程个数（根据代理ip并发上限来定，第11行，默认为10次并发）
 # 每日更新：
 - 每天运行前需更新文件：
-.\code
+.\guba\info\Code.txt;
 .\guba\info\Calendar_SSE.txt
 - 每日运行：
 .\daily.bat

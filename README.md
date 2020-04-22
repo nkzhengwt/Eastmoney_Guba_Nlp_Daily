@@ -16,3 +16,5 @@ A web crawler and nlp to analyze the public sentiments of A shares
 - .\guba\history 为历史原始文本及数据（有_txt后缀为原始文本，无后缀为自然语言处理模型后的数据）
 - .\guba\info\datelog.txt 为更新时间记录
 - .\guba\log 为运行日志
+# 包和历史数据过大，可以从以下链接下载：
+- https://drive.google.com/open?id=1cNL2ctvWD0gyThi6y66562iFV-tvQn7P

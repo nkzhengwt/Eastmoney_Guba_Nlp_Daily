@@ -12,7 +12,7 @@ A web crawler and nlp to analyze the public sentiments of A shares
 - 每日运行：
 .\daily.bat
 # 路径文件说明：
-.\guba\backup 为历史备份数据及文件，定期可清理一次
-.\guba\history 为历史原始文本及数据（有_txt后缀为原始文本，无后缀为自然语言处理模型后的数据）
-.\guba\info\datelog.txt 为更新时间记录
-.\guba\log 为运行日志
+- .\guba\backup 为历史备份数据及文件，定期可清理一次
+- .\guba\history 为历史原始文本及数据（有_txt后缀为原始文本，无后缀为自然语言处理模型后的数据）
+- .\guba\info\datelog.txt 为更新时间记录
+- .\guba\log 为运行日志

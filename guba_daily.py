@@ -6,8 +6,9 @@ from email.header import Header
 def daily():
     # path = input("Root Path:")
     path = ""
-    proxyUser = "MG9F1664199663789756"
-    proxyPass = "H822p6yaVbmx"
+    # 此处更换为你自己申请的蜻蜓代理ip 用户名和密码
+    proxyUser = "**************"
+    proxyPass = "*******"
     num_thread = 10
     proxy_all_false = False
     if len(path) == 0:
@@ -39,18 +40,18 @@ def daily():
 
 
 def send_mail(status):
-    who = '1019575585@qq.com,nkzhengwt@outlook.com'
+    who = 'nkzhengwt@outlook.com'
     if status == True:
         subject = "股吧爬虫数据已更新"
     else:
         subject = "注意！！股吧数据更新失败"
     mail_host="smtp.qq.com"
-    mail_user="1679310487@qq.com"
-    mail_pass="ljpqgdqiypawbjce"
-    sender = '1679310487@qq.com'
+    mail_user="******@**.com"
+    mail_pass="*************"
+    sender = '*******@**.com'
     receivers = who.split(',')
     message = MIMEText(subject, 'plain', 'utf-8')
-    message['From'] = "1679310487@qq.com"
+    message['From'] = "*******@**.com"
     message['To'] = who
     message['Subject'] = subject
     try:
